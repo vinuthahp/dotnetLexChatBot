@@ -3,7 +3,7 @@ phases:
   pre_build:
     commands:
       - echo Restore started on `date`
-      - nuget restore dotnetLexChatBot/Code/dotnetLexChatBot/dotnetLexChatBot.csproj
+      - nuget restore */dotnetLexChatBot.csproj
 
   build:
     commands:
