@@ -2,6 +2,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - npm install nuget
       - echo Restore started on `date`
       - nuget restore dotnetLexChatBot/dotnetLexChatBot.csproj
 
