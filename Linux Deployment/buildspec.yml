@@ -17,7 +17,7 @@ phases:
 artifacts:
   files:
     - bin/Debug/netcoreapp1.1/*
-  discard-paths: yes
+  discard-paths: 1
     - dotnetLexChatBot/build_output/**/*
     - scripts/**/*
     - appspec.yml
