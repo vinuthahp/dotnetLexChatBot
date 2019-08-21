@@ -4,7 +4,7 @@ phases:
     commands:
       - npm install nuget
       - echo Restore started on `date`
-      - nuget restore dotnetLexChatBot/dotnetLexChatBot.csproj
+      - dotnet restore dotnetLexChatBot/dotnetLexChatBot.csproj
 
   build:
     commands:
